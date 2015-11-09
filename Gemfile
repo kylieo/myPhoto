@@ -49,6 +49,7 @@ group :development do
   gem 'web-console', '~> 2.0'
 
 group :production do
+  # Use Postgres for production
 	gem 'pg'
 	gem 'rails_12factor'
 end
